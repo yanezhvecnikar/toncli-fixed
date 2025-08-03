@@ -31,7 +31,7 @@ setuptools.setup(
     },
     install_requires=install_requires,
     packages=['toncli'],
-    python_requires=">=3.8",
+    python_requires=">=3.9",
     entry_points={
         'console_scripts': [
             'toncli = toncli.main:main',

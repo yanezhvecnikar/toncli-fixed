@@ -4,8 +4,8 @@ requires = [
     "wheel",
     "colorama",
     "appdirs",
-    "requests",
-    "pyyaml",
+    "requests>=2.28.2,<3.0",
+    "pyyaml>=6.0.1,<7.0",
     "Jinja2",
     "bitstring"
 ]
